@@ -1,0 +1,11 @@
+
+.green_line {
+    position: absolute;
+    bottom: -8px;
+    right: 21%;
+    width: 60%;
+    height: 12px;
+    background-color: #61b848;
+    border: 0;
+}
+

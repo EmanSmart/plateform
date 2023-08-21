@@ -1,0 +1,14 @@
+.counterBox {
+    background-image: url(../assets/images/count-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counterBox h4 {
+    font-size: 42px;
+    font-family: Gotham-Bold;
+}
+.counterBox p {
+    color: #fff;
+    font-size: 16px;
+}

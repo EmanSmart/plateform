@@ -1,0 +1,49 @@
+.footer {
+    background-color: #104c65;
+    height: auto;
+    padding: 7rem 0;
+}
+
+.footer .footerlogo {
+    width: 200px;
+}
+.footer .sgslogo {
+    bottom: -16vh;
+    position: absolute;
+    text-align: center;
+    width: 12vw;
+    display: flex;
+    left: 44vw;
+}
+.footer h5 {
+    font-size: 1.3vw;
+    font-family: Gotham-Bold;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.footer a {
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.footer .icon {
+    color: #fff;
+    margin-right: 4px;
+}
+.footer .qr_logo {
+    width: 75%;
+}
+
+@media screen and (max-width: 940px) {
+    .footer .qr_logo {
+        width: 20%;
+    }
+    .footer .bar_social {
+        display: flex;
+    }
+}

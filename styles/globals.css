@@ -1,0 +1,211 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+    font-family: Gotham-Light;
+    src: url(../Gotham-Font/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url(../Gotham-Font/GothamMedium_1.ttf);
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(../Gotham-Font/Gotham-Bold.otf);
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+/*  css variables */
+:root {
+    --card-bg-01: #fdefe6;
+    --card-bg-02: #d6e5fb;
+    --card-bg-03: #ceebe9;
+    --card-bg-04: #e2f2b2;
+    --primary-color: #104c65;
+    --hero-bg: #61b848;
+    --faq-bg: #b87fb7;
+    --heading-fontSize: 2rem;
+    --small-text-color: #999;
+    --heading-text-color: #0a1d37;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #104c65;
+}
+
+/* reset browser default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Montserrat", sans-serif; */
+    background-color: #104c65;
+    color: #fff;
+    font-family: Gotham-Light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: var(--small-text-color);
+    font-size: 1rem;
+}
+
+h1,
+h2 {
+    font-size: var(--heading-fontSize);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+img {
+    width: 100%;
+}
+
+/* Services */
+#services .carousel-item {
+    padding: 0 10% !important;
+}
+#services .carousel-control-prev-icon,
+#services .carousel-control-next-icon {
+    background-color: #61b848;
+    border-radius: 50%;
+    padding: 3px;
+    height: 3vw;
+    width: 3vw;
+}
+#services .carousel-control-prev-icon,
+#services .carousel-control-next-icon {
+    background-size: 35px !important;
+}
+
+#services .carousel-indicators {
+    margin-bottom: -3rem !important;
+}
+#services .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 132px;
+    height: 4px;
+}
+#services .carousel-indicators [data-bs-target].active {
+    background-color: #61b848 !important;
+}
+
+/* cities */
+#cities .nav-tabs .nav-link {
+    border: 0;
+    color: #fff;
+    font-family: Gotham-Medium;
+    opacity: 0.5;
+}
+#cities .nav-tabs .nav-link.active {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-bottom: 2px solid !important;
+    opacity: 1;
+}
+
+#cities .nav-tabs .nav-link:link,
+#cities .nav-tabs .nav-link:visited,
+#cities .nav-tabs .nav-link:hover,
+#cities .nav-tabs .nav-link:active {
+    border: 0;
+}
+
+#cities .card {
+    border: 0;
+    border-radius: 25px;
+    background-color: transparent;
+    position: relative;
+}
+#cities .card .datacard {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    z-index: 10;
+}
+#cities .card .datacard span {
+    color: #fff;
+    font-family: Gotham-Bold;
+    font-size: 3vw;
+    color: #61b848;
+}
+#cities .card .datacard p {
+    font-family: Gotham-Bold;
+    color: #fff;
+    font-size: 2vw;
+}
+
+/* FAQ Section */
+#faq .accordion-body {
+    font-weight: bold;
+    font-size: 20;
+    color: #a672a5;
+    height: 90px;
+}
+
+#faq .accordion-button {
+    background-color: #b87fb7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    height: 70px;
+}
+
+#faq .accordion-header {
+    background-color: #b87fb7;
+    color: #fff;
+}
+
+#faq .accordion-item {
+    border: 0;
+    margin: 40px 0;
+    border-radius: 8px;
+}
+#faq .accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-color: #b87fb7 !important;
+}
+
+#faq .accordion-button:link,
+#faq .accordion-button:visited,
+#faq .accordion-button:hover,
+#faq .accordion-button:active {
+    background-color: #af6fa8 !important;
+    border-radius: 0% !important;
+}
+
+#faq .accordion-button:focus {
+    font-weight: bolder;
+}

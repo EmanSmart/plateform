@@ -1,0 +1,41 @@
+.hero__section {
+    height: auto;
+    position: relative;
+    margin-bottom: 30vh;
+    /* overflow: hidden; */
+}
+.hero__section .content {
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    bottom: 35%;
+    left: 10%;
+}
+
+.hero__content h2 {
+    color: #ffffff;
+    font-size: 2.5vw;
+    font-family: Gotham-Bold;
+    padding-bottom: 1vw;
+    /* text-shadow: 0.1vw 0.1vw #000; */
+    text-align: center;
+}
+.hero__content h3 {
+    color: #ffffff;
+    font-size: 1.3vw;
+    text-align: justify;
+    line-height: 1.8;
+    text-align: center;
+
+    /* text-shadow: 0.1vw 0.1vw #000; */
+}
+.hero__section .form_box{
+    position: absolute;
+    z-index: 6;
+    bottom: -11rem;
+    left: 15%;
+    width: 66rem;
+    height: 14rem;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
